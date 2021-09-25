@@ -1,0 +1,65 @@
+.header {
+  min-width: 100%;
+  width: 100%;
+  height: 70px;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 100;
+}
+
+.header:hover {
+  transition: .2s;
+  background-color: #42a2ce;
+}
+.header:hover a {
+  color: aliceblue
+}
+
+.header .navbar {
+  width: 100%;
+  height: 100%;
+  /* padding: 0 4%; */
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header .logo {
+  padding: 0 10px;
+  font-size: 28px!important;
+}
+
+.header .header_menu {
+  height: 100%;
+  min-width: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .header .header_menu a {
+  margin-left: 50px;
+} */
+
+.header .logout {
+  cursor: pointer;
+  color: black;
+  border: 2px dotted;
+  padding: 5px 8px;
+  border-radius: 20px;
+  align-self: flex-end;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  align-self: flex-end;
+}
+
+.header .logout:hover {
+  border: 2px solid aliceblue;
+  color: white;
+}

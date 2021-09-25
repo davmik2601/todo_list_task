@@ -1,0 +1,24 @@
+.main_loading {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1000;
+}
+
+.main_loading img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.main_loading h3 {
+  position: absolute;
+  left: 50%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+  color: black;
+}

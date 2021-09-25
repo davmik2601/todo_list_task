@@ -1,0 +1,5 @@
+export const GLOBAL_TYPES = {
+  AUTH: 'AUTH',
+  LOADING: 'LOADING',
+  SUCCESS_MESSAGE: 'SUCCESS_MESSAGE',
+};

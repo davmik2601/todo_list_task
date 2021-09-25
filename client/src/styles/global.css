@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: rgb(224, 224, 224); */
+  background-image: url('../images/cover5.jpg.crdownload');
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  margin: 70px auto 0;
+  height: calc(100vh - 70px);
+  padding: 30px 4% 10px;
+  scrollbar-width: thin;
+  overflow-y: scroll;
+}
+
+/* ScroolBar */
+.main::-webkit-scrollbar {
+  width: 14px;
+}
+
+.main::-webkit-scrollbar-track {
+  border-radius: 100px;
+  background-color: none;
+}
+.main::-webkit-scrollbar-track:hover {
+  background-color: rgb(210, 232, 241);
+}
+.main::-webkit-scrollbar-thumb {
+  background-color: #c8d5dba4;
+  border-radius: 100px;
+  transition: 1s;
+}
+.main::-webkit-scrollbar-thumb:hover {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #42a2ce;
+}
+
+
+
+@import url('header.css');
+@import url('loading.css');
+@import url('auth.css');
+@import url('message.css');
+@import url('todo_list.css');

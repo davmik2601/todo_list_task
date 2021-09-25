@@ -1,0 +1,62 @@
+.todo_list {
+  /* display: flex;
+  justify-content: space-around; */
+  overflow: hidden;
+}
+
+
+.todo_list .list_item {
+  /* min-width: 200px; */
+  background-image: url('../images/cover1.jpg');
+  background-size: 100% 100px;
+  color: black;
+  border-radius: 5px;
+}
+
+.todo_list .list_item .card-header {
+  padding: .4rem .3rem .4rem .6rem;
+}
+.todo_list .list_item .card-footer {
+  padding: 0 .2rem .4rem;
+}
+.todo_list .list_item .card-body {
+  /* padding: .6rem .6rem; */
+  padding: 0;
+}
+
+.todo_list .list_item .card-body h6 {
+  margin: 0;
+}
+
+
+.home .add_task {
+  width: 100%;
+  border: 2px dotted #42a2ce;
+  border-radius: 5px;
+  overflow: hidden;
+  background-image: url('../images/cover6.jpg');
+  background-size: 100% 500px;
+}
+
+.home .add_task > div {
+  width: 100%;
+  height: 100%;
+  padding: .8rem 1.2rem;
+}
+
+
+.home .material-icons {
+  font-size: 20px;
+  padding: 3px 4px;
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+}
+
+.home .material-icons:hover {
+  background: cornsilk;
+}
+
+.delete_icon:hover {
+  color: red;
+}
