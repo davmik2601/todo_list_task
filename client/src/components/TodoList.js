@@ -18,7 +18,7 @@ const TodoList = () => {
   
   return (
     <div className="todo_list">
-      <div className="row my-3"><h3 className="text-white">Tasks</h3></div>
+      <div className="my-3"><h3 className="text-white">Tasks</h3></div>
       <div className="row">
         {task.list && task.list.map((todo) => (
           <div key={todo._id} className="col-md-4">
