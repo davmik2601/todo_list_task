@@ -2,7 +2,7 @@ import axios from "axios";
 import { API_URL } from "../config/keys";
 
 const Axios = axios.create({
-    baseURL: API_URL || 'http://localhost:3001',
+    baseURL: API_URL || 'http://localhost:3026',
     headers: {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",

@@ -19,8 +19,6 @@ function App() {
     dispatch(checkAuth());
   }, []);
 
-  console.log(auth);
-
   return (
     <Router>
       <div className="App">

@@ -10,7 +10,7 @@ import passport from 'passport';
 import passportJwt from './api/version1/utils/passport-jwt.js';
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3026;
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
